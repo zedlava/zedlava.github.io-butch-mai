@@ -44,7 +44,14 @@
     <nav class="fixed w-full bg-white bg-opacity-95 shadow-md z-50">
         <div class="container mx-auto px-6 py-4">
             <div class="flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="index.html#registry" title="Back to Home" class="text-rose-900 hover:text-rose-700 transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m7 7l-7-7 7-7"/>
+                    </svg>
+                </a>
                 <div class="font-playfair text-2xl text-rose-900">Butch & Mai</div>
+            </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="index.html" class="text-rose-900 hover:text-rose-700 transition">Home</a>
                     <a href="#home-items" class="text-rose-900 hover:text-rose-700 transition">Home Items</a>
@@ -67,61 +74,64 @@
     <!-- Home Items Section -->
     <section id="home-items" class="py-16">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="font-playfair text-3xl text-rose-900 mb-4">Home & Kitchen Essentials</h2>
-                <p class="text-gray-700">Help us build our dream home together with these carefully selected items</p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Kitchen Items -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-playfair text-xl text-rose-900 mb-2">Kitchen Appliances</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Air Fryer</li>
-                        <li>• Stand Mixer</li>
-                        <li>• Coffee Maker</li>
-                        <li>• Rice Cooker</li>
-                    </ul>
-                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-rose-600 text-white rounded-full text-sm hover:bg-rose-700 transition">View Items</a>
+            <div class="registry-card rounded-xl p-6">
+                <div class="text-center mb-12">
+                    <h2 class="font-playfair text-3xl text-rose-900 mb-4">Home & Kitchen Essentials</h2>
+                    <p class="text-gray-700">Help us build our dream home together with these carefully selected items</p>
                 </div>
 
-                <!-- Bedroom Items -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                        </svg>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Kitchen Items -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-xl text-rose-900 mb-2">Kitchen Appliances</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Air Fryer</li>
+                            <li>• Stand Mixer</li>
+                            <li>• Coffee Maker</li>
+                            <li>• Rice Cooker</li>
+                        </ul>
                     </div>
-                    <h3 class="font-playfair text-xl text-rose-900 mb-2">Bedroom Essentials</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Bedding Set</li>
-                        <li>• Throw Pillows</li>
-                        <li>• Bedside Lamps</li>
-                        <li>• Storage Ottoman</li>
-                    </ul>
-                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-rose-600 text-white rounded-full text-sm hover:bg-rose-700 transition">View Items</a>
+
+                    <!-- Bedroom Items -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-xl text-rose-900 mb-2">Bedroom Essentials</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Bedding Set</li>
+                            <li>• Throw Pillows</li>
+                            <li>• Bedside Lamps</li>
+                            <li>• Storage Ottoman</li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Room -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-xl text-rose-900 mb-2">Living Room Decor</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Wall Art</li>
+                            <li>• Throw Blankets</li>
+                            <li>• Decorative Vases</li>
+                            <li>• Coffee Table Books</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- Living Room -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-48 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-playfair text-xl text-rose-900 mb-2">Living Room Decor</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Wall Art</li>
-                        <li>• Throw Blankets</li>
-                        <li>• Decorative Vases</li>
-                        <li>• Coffee Table Books</li>
-                    </ul>
-                    <a href="#" class="mt-4 inline-block px-4 py-2 bg-rose-600 text-white rounded-full text-sm hover:bg-rose-700 transition">View Items</a>
+                <div class="text-center mt-4">
+                    <a href="https://www.thesmstoregiftregistry.com/eventdetail/692e9b4be4fdd4b0b7dec93d?eventCode=8228848" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full text-sm hover:bg-rose-700 transition">View Items</a>
                 </div>
             </div>
         </div>
@@ -141,14 +151,14 @@
                         <svg class="w-16 h-16 text-rose-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        <h3 class="font-playfair text-2xl text-rose-900 mb-2">Bali & Thailand Adventure</h3>
+                        <h3 class="font-playfair text-2xl text-rose-900 mb-2">Boracay Adventure</h3>
                         <p class="text-gray-700">Your contribution will help us experience the perfect blend of relaxation and adventure</p>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-6 mb-6">
                         <div class="payment-method rounded-lg p-4">
                             <h4 class="font-semibold text-gray-800 mb-2">GCash</h4>
-                            <p class="text-sm text-gray-600">0917-XXX-XXXX</p>
+                            <p class="text-sm text-gray-600">0946 739 6284</p>
                             <p class="text-xs text-gray-500">Arnold Valdez</p>
                         </div>
                         <div class="payment-method rounded-lg p-4">
@@ -180,7 +190,7 @@
                         <div class="gift-item rounded-lg p-4">
                             <div class="flex justify-between items-center">
                                 <span class="text-gray-700">Custom Amount</span>
-                                <button class="px-3 py-1 bg-rose-600 text-white rounded text-sm">Contribute</button>
+                                <button class="px-3 py-1 bg-rose-600 text-white rounded text-sm"><a href="gcash://openapp">Launch GCash App</a></button>
                             </div>
                         </div>
                     </div>
@@ -192,70 +202,76 @@
     <!-- Gadgets & Household Essentials Section -->
     <section id="gadgets" class="py-16">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="font-playfair text-3xl text-rose-900 mb-4">Gadgets & Household Essentials</h2>
-                <p class="text-gray-700">Modern essentials to make our daily life easier and more enjoyable</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Gadgets -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-playfair text-lg text-rose-900 mb-2">Tech Gadgets</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Smart Speaker</li>
-                        <li>• Wireless Earbuds</li>
-                        <li>• Tablet</li>
-                    </ul>
+            <div class="registry-card rounded-xl p-6">
+                <div class="text-center mb-12">
+                    <h2 class="font-playfair text-3xl text-rose-900 mb-4">Gadgets & Household Essentials</h2>
+                    <p class="text-gray-700">Modern essentials to make our daily life easier and more enjoyable</p>
                 </div>
 
-                <!-- Cleaning -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
-                        </svg>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Gadgets -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-lg text-rose-900 mb-2">Tech Gadgets</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Smart Speaker</li>
+                            <li>• Wireless Earbuds</li>
+                            <li>• Tablet</li>
+                        </ul>
                     </div>
-                    <h3 class="font-playfair text-lg text-rose-900 mb-2">Cleaning Essentials</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Vacuum Cleaner</li>
-                        <li>• Steam Mop</li>
-                        <li>• Air Purifier</li>
-                    </ul>
+
+                    <!-- Cleaning -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-lg text-rose-900 mb-2">Cleaning Essentials</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Vacuum Cleaner</li>
+                            <li>• Steam Mop</li>
+                            <li>• Air Purifier</li>
+                        </ul>
+                    </div>
+
+                    <!-- Storage -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-lg text-rose-900 mb-2">Storage Solutions</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Storage Bins</li>
+                            <li>• Closet Organizers</li>
+                            <li>• Shoe Rack</li>
+                        </ul>
+                    </div>
+
+                    <!-- Bathroom -->
+                    <div class="rounded-xl p-6">
+                        <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
+                            <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-playfair text-lg text-rose-900 mb-2">Bathroom Essentials</h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• Towel Set</li>
+                            <li>• Bath Mat</li>
+                            <li>• Shower Caddy</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- Storage -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-playfair text-lg text-rose-900 mb-2">Storage Solutions</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Storage Bins</li>
-                        <li>• Closet Organizers</li>
-                        <li>• Shoe Rack</li>
-                    </ul>
-                </div>
-
-                <!-- Bathroom -->
-                <div class="registry-card rounded-xl p-6">
-                    <div class="w-full h-32 bg-rose-100 rounded-lg mb-4 flex items-center justify-center">
-                        <svg class="w-12 h-12 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-playfair text-lg text-rose-900 mb-2">Bathroom Essentials</h3>
-                    <ul class="text-sm text-gray-700 space-y-1">
-                        <li>• Towel Set</li>
-                        <li>• Bath Mat</li>
-                        <li>• Shower Caddy</li>
-                    </ul>
+                <div class="text-center mt-4">
+                    <a href="https://www.thesmstoregiftregistry.com/eventdetail/692e9fa8e4fdd4b0b7ded34e?eventCode=8228855" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full text-sm hover:bg-rose-700 transition">View Items</a>
                 </div>
             </div>
         </div>
