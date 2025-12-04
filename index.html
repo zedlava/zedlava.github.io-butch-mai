@@ -424,6 +424,12 @@
 
     <script>
         document.addEventListener('contextmenu', event => event.preventDefault());
+
+         document.addEventListener("keydown", function (event){
+            if (event.ctrlKey || event.keyCode == 123){ // Ctrl or F12
+                event.preventDefault();
+            }
+        });
         // Countdown Timer
         function updateCountdown() {
             const weddingDate = new Date('December 30, 2025 14:00:00').getTime();
