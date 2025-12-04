@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero-height {
+            height: calc(100vh - 80px);
+        }
+        
+        .animate-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: #D4A373;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline-item::before {
+                left: 20px;
+            }
+        }
+        
+        .ring-animation {
+            animation: pulse 4s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .fade-edges {
+            mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent), linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+            mask-composite: intersect;
+            -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent), linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+            -webkit-mask-composite: source-in;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
+
+        .mobile-menu.open {
+            display: block;
+        }
